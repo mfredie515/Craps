@@ -1,0 +1,7 @@
+﻿BETS:
+Buy/Lay bets
+	CanPlace take into account player bankroll for all bets?
+Prop bets
+Bets on/off
+
+GAMEPLAY:
