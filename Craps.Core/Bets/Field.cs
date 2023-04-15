@@ -10,7 +10,7 @@ namespace Craps.Core.Bets
     /// The Field bet, a single roll bet that wins 1:1 on 3, 4, 9, 10, or 11 and wins 2:1 on 2 or 12. 
     /// Each other number is a loss.
     /// </summary>
-    public class Field : Bet
+    public class Field : Bet, ISingleRollBet
     {
         public Field(Table table) : base(table) { }
 
