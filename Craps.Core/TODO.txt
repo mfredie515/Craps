@@ -1,7 +1,18 @@
-﻿BETS:
-Buy/Lay bets
+﻿Buy/Lay bets
 	CanPlace take into account player bankroll for all bets?
-Prop bets
-Bets on/off
 
-GAMEPLAY:
+Bets on/off
+	
+Rework CanPlace
+	static makes more sense?
+	if (Bet.CanPlace)
+		player.MakeBet(b)
+
+	otherwise create bet, cant add -> just let GC collect bet?
+
+Rework tests
+	Table -> AddPlayer (player bankroll x)
+	
+Integration Tests
+	Single Roll Bets removed after roll
+	Process rolls and such
